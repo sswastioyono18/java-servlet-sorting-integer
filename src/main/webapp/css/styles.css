@@ -1,0 +1,56 @@
+body {
+    background-color: #C0C0C0;
+    color: #000;
+    font-family:"Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* ---------- inputDiv ---------- */
+#inputDiv {
+    margin: 50px auto;
+    width: 400px;
+}
+
+#inputDiv fieldset {
+    background-color: #fff;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    border-radius: 0 0 20px 20px;
+}
+#inputDiv fieldset p {
+    color: #777;
+    margin-bottom: 14px;
+}
+#inputDiv fieldset p:last-child {
+    margin-bottom: 0;
+}
+#inputDiv fieldset textarea {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#inputDiv fieldset textarea[id=outputResult] {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 342px;
+    height: 58px;
+    resize: none;
+}
+
+#inputDiv fieldset button[type="submit"] {
+    background-color: #33cc77;
+    color: #fff;
+    display: block;
+    padding: 4px 0;
+    width: 100px;
+
+}
+#inputDiv fieldset button[type="submit"]:hover {
+    background-color: #28ad63;
+}
+
+#inputDiv fieldset button[type="submit"]:disabled {
+    background-color: #686868;
+}

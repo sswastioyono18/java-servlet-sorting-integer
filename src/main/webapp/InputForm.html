@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+          rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="validation.js"></script>
+    <title>Top 5th Highest Integer Calculator</title>
+</head>
+<body>
+<div id="inputDiv">
+    <h2>Find Top 5 highest number from input column (Descending order)</h2>
+    <fieldset>
+        <p>
+            <label id="inputLabel">Input (Please put number separated by comma)</label>
+        </p>
+        <p>
+            <textarea type="text" id="input" onkeyup="checkInput()"></textarea>
+        </p>
+
+        <p>
+            <button type="submit" value="submit" id="submit" onclick="get()">Submit</button>
+        </p>
+
+        <p>
+            <label id="output">Output</label>
+        </p>
+
+        <p>
+            <textarea type="text" id="outputResult" readonly="true"></textarea> <br/>
+        </p>
+    </fieldset>
+</div>
+</body>
+</html>
