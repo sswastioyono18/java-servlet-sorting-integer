@@ -1,5 +1,5 @@
 ### Goal
-Test creating java servlet with ajax call
+Test creating java servlet with ajax call. This is one of the project I made for take home assignment when i applied a job
 
 ### How To 
 
